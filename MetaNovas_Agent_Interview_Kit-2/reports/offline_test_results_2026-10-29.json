@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-29",
+  "mode": "offline_mocked_model",
+  "command": "python -m unittest discover -q",
+  "tests_run": 124,
+  "failures": 0,
+  "errors": 0,
+  "status": "PASS",
+  "agent_bytes": 77895,
+  "agent_sha256": "55197bb3210b17edd6bb1a30b83e916fa4acf1ade250675c5cfee45c1932c69b",
+  "imports": [
+    "__future__",
+    "copy",
+    "datetime",
+    "decimal",
+    "hashlib",
+    "interview_sdk",
+    "json",
+    "math",
+    "re"
+  ],
+  "single_file_submission_test": "PASS",
+  "live_model_status": "NOT_RUN",
+  "live_model_reason": "INTERVIEW_API_KEY not visible in this execution environment",
+  "fixes_during_testing": [
+    "Reject arithmetic inputs absent from cited evidence or justified constants",
+    "Bind optimization metrics to the actual option field",
+    "Require readbacks after the latest related uncertain write attempt",
+    "Reject earlier write evidence as completion of a newly revised goal"
+  ],
+  "limits": "Model responses are mocked. This result does not establish real-model quality or official evaluation scores."
+}

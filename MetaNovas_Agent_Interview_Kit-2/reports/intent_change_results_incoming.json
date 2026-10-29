@@ -1,0 +1,105 @@
+{
+  "mode": "real_model",
+  "planned_scenarios": [
+    "revise_before_confirmation",
+    "revise_after_confirmation",
+    "revise_in_confirmation",
+    "cancel_before_confirmation",
+    "cancel_after_confirmation",
+    "cancel_in_confirmation"
+  ],
+  "unrun_scenarios": [],
+  "results": [
+    {
+      "scenario": "revise_before_confirmation",
+      "status": "INCONCLUSIVE",
+      "reason": "agent_fallback",
+      "successful_writes": 0,
+      "database_unchanged": true,
+      "trace": [
+        {
+          "step": 0,
+          "response": {
+            "content": "I couldn't verify the information needed to continue safely. Please try again."
+          }
+        }
+      ]
+    },
+    {
+      "scenario": "revise_after_confirmation",
+      "status": "INCONCLUSIVE",
+      "reason": "agent_fallback",
+      "successful_writes": 0,
+      "database_unchanged": true,
+      "trace": [
+        {
+          "step": 0,
+          "response": {
+            "content": "I couldn't verify the information needed to continue safely. Please try again."
+          }
+        }
+      ]
+    },
+    {
+      "scenario": "revise_in_confirmation",
+      "status": "INCONCLUSIVE",
+      "reason": "agent_fallback",
+      "successful_writes": 0,
+      "database_unchanged": true,
+      "trace": [
+        {
+          "step": 0,
+          "response": {
+            "content": "I couldn't verify the information needed to continue safely. Please try again."
+          }
+        }
+      ]
+    },
+    {
+      "scenario": "cancel_before_confirmation",
+      "status": "INCONCLUSIVE",
+      "reason": "agent_fallback",
+      "successful_writes": 0,
+      "database_unchanged": true,
+      "trace": [
+        {
+          "step": 0,
+          "response": {
+            "content": "I couldn't verify the information needed to continue safely. Please try again."
+          }
+        }
+      ]
+    },
+    {
+      "scenario": "cancel_after_confirmation",
+      "status": "INCONCLUSIVE",
+      "reason": "agent_fallback",
+      "successful_writes": 0,
+      "database_unchanged": true,
+      "trace": [
+        {
+          "step": 0,
+          "response": {
+            "content": "I couldn't verify the information needed to continue safely. Please try again."
+          }
+        }
+      ]
+    },
+    {
+      "scenario": "cancel_in_confirmation",
+      "status": "INCONCLUSIVE",
+      "reason": "agent_fallback",
+      "successful_writes": 0,
+      "database_unchanged": true,
+      "trace": [
+        {
+          "step": 0,
+          "response": {
+            "content": "I couldn't verify the information needed to continue safely. Please try again."
+          }
+        }
+      ]
+    }
+  ],
+  "note": "Seeded authenticated transcript; PASS covers tool behavior/database state. Review customer prose separately."
+}
